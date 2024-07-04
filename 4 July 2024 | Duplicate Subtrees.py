@@ -1,3 +1,4 @@
+from collections import defaultdict
 class Solution:
     def __init__(self):
         self.map = defaultdict(int)
