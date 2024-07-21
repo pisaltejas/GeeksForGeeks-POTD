@@ -1,6 +1,6 @@
 #Function to check whether two linked lists are identical or not.
 def areIdentical(head1, head2):
-    # Code here
+    # Code Here
      # Traverse both lists
     while head1 is not None and head2 is not None:
         # If data of both nodes is not equal, return False
