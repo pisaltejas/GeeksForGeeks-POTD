@@ -14,3 +14,4 @@ class Solution:
                 ans += brr[i]
                 y -= 1
         return ans
+#tb
