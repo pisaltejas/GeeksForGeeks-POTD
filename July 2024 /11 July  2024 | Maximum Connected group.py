@@ -2,7 +2,7 @@ from typing import List, Tuple
 
 class Solution:
     def MaxConnection(self, grid: List[List[int]]) -> int:
-#code here
+
         n = len(grid)
         
         def dfs(i: int, j: int, component_id: int):
