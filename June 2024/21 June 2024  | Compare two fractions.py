@@ -1,7 +1,7 @@
 class Solution:
     def compareFrac (self, str):
         
-        # code here
+        #code here
          # Split the input string to get the two fractions
         frac1, frac2 = str.split(', ')
         
