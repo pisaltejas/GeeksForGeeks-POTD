@@ -16,3 +16,4 @@ class Solution:
                 if arr[i] < arr[i + 1]:
                      # Swap elements to satisfy the zigzag condition
                     arr[i], arr[i + 1] = arr[i + 1], arr[i]
+#tb
