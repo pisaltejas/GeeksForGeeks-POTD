@@ -7,3 +7,4 @@ class Solution:
                 if i * i + j * j <= limit:
                     ans += 1
         return ans
+#tb
