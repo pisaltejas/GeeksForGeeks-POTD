@@ -26,4 +26,5 @@ class Solution:
                 current.next.prev = current.prev
         
         return head
-      #tb
+
+  #tb
