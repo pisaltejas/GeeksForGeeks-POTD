@@ -11,6 +11,6 @@ class Solution:
                 result[i][new_position] = mat[i][j]
         
         return result
-
   #tb
+
   
