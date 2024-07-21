@@ -1,4 +1,4 @@
-# Tree Node structure
+
 class Tree:
     # Constructor to create a new node
     def __init__(self, data):
