@@ -1,6 +1,6 @@
 class Solution:
     def removeAllDuplicates(self, head):
-        #code here
+        #CODE HERE
         dummy = Node(0)  # Create a dummy node to handle edge cases more easily
         dummy.next = head
         prev = dummy  # The last node before the sublist of duplicates
