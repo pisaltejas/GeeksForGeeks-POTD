@@ -1,5 +1,5 @@
 def isToeplitz(mat):
-    #code here
+    #Code here
     rows = len(mat)
     cols = len(mat[0])
     
