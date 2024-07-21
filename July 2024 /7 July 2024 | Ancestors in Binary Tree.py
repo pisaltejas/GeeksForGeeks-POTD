@@ -32,5 +32,6 @@ class Solution:
             path.pop()
         # The ancestors should be in reverse order
         path.reverse()
-      #tb
+     
         return path
+        #tb
