@@ -20,3 +20,4 @@ class Solution:
         remaining_sum = target - root.data
         return (self.hasPathSum(root.left, remaining_sum) or 
                 self.hasPathSum(root.right, remaining_sum))
+        #tb
