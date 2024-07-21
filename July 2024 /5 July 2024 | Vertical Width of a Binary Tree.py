@@ -33,3 +33,4 @@ def verticalWidth(root):
     
     # Calculate the number of unique vertical lines
     return len(vertical_map)
+    #tb
