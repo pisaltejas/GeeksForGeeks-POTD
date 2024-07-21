@@ -25,3 +25,4 @@ class Solution:
             prod = (prod * pow(maxi, MOD-2, MOD)) % MOD
         
         return prod % MOD
+#tb
