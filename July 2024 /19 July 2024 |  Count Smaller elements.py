@@ -19,3 +19,4 @@ class Solution:
 		self.smaller = [0] * len(arr)
         self.mergeSort(list(enumerate(arr)))
         return self.smaller
+#tb
