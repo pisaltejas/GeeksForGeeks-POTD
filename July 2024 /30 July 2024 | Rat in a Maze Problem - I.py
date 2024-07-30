@@ -1,6 +1,6 @@
 class Solution:
     def findPath(self, m: List[List[int]]) -> List[str]:
-        # code here edutechbarsha
+      
         def isSafe(x, y):
             return 0 <= x < n and 0 <= y < n and m[x][y] == 1 and not visited[x][y]
 
