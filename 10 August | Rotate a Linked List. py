@@ -1,0 +1,15 @@
+class Solution:
+    def rotate(self, head, k):
+        if not head or not head.next or k == 0:
+            return head
+        p = head
+        while p.next:
+            p = p.next
+        for i in range(k):
+            t = head
+            head = head.next
+            t.next = None
+            p.next = t
+            p = t
+        
+        return head
